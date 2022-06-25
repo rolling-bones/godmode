@@ -6,11 +6,11 @@ import { alpha } from '@material-ui/core/styles/colorManipulator';
 function Header({page}){
 const title = page === 'home' ? 'What game do you choose?' : 'Pick another game'
 
-const useStyles=makeStyles((theme)=>({
+const useStyles=makeStyles(()=>({
   text:{
       color: alpha('#D2A17B', 0.7),
       textAlign: 'center',
-      fontSize: 85,
+      fontSize: [85, "!important"],
       lineHeight: .1
   }
   }));

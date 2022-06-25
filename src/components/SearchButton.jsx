@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Typography from '@mui/material/Typography'
 import { alpha } from '@material-ui/core/styles/colorManipulator';
 
-function SearchButton(props){
+function SearchButton(){
   const theme = createTheme({
     palette: {
       primary: {
